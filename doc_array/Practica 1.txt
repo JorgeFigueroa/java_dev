@@ -1,0 +1,27 @@
+PRACTICA CALIFICADA 1
+
+1. Se pide ingresar el nombre de un alumno y el curso(java,
+android, Excel). Mostrar el nombre, curso, costo(java-800,
+android-900, excel - 600), dscto(costo * 0.1) y total(costo-
+dscto). utilizar JOptionPane
+
+2.Se pide ingresar el precio de un producto. mostrar el
+siguiente comentario segun el caso:
+0 - 100 -> en oferta
+101 - 500 -> normal
+501 - 1000 -> sin oferta
+> 1000 -> precio elevado
+utilizar joptionPane para el ingreso de datos.
+
+3. Se pide ingresar n numeros positivos. Se terminara el
+ingreso de datos cuando se ingrese un cero
+
+4. Crear 2 arreglos numericos enteros. el primer arreglo
+se llenara con numeros aleatorios y el segundo arreglo 
+con los numeros del primer arreglo elevado al cuadrado.
+
+5. Crear una matriz de 5x5 y llenarla con numeros aleatorios
+entre el 1 y el 9.Se pide mostrar la matriz y la cantidad de
+numeros pares e impares.
+
+              QUE LA FUERZA LOS ACOMPAÑE...!!!!

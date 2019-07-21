@@ -1,0 +1,98 @@
+ES: MAGGIORE DI?
+ Definire una classe MaggioreDi il cui main:
+ - chiede all'utente un array di interi in ingresso (dimensione e elementi)
+ - chiede all'utente un numero intero "confr" e restituisce "true" se nell'array esiste
+    almeno un numero maggiore di "confr"
+ DOMANDA: è meglio usare un while o un for?
+ MOD1 - chiede all'utente un numero intero "confr" e restituisce quanti elementi 
+    dell'array sono maggiore di "confr"
+
+
+ES: E' ORDINATO?
+ Definire una classe ControllaSeOrdinato il cui main:
+ - chiede all'utente un array di interi in ingresso (dimensione ed elementi)
+ - se l'array è ordinato (a[i]<=a[i+1]) restituisce la stringa:
+    "L'array è ordinato"
+ - altrimenti restituisce
+   "L'array NON è ordinato"    
+
+
+ES: SEQUENZA?
+ Definire una classe ControllaSequenza il cui main:
+ - chiede all'utente un array di interi in ingresso (dimensione ed elementi)
+ - se l'array contiene almeno 3 elementi se se ogni elemento è la somma dei
+ due elementi precendti restituisce:
+    "La sequenza è soddisfatta"
+ - altrimenti restituisce
+   "La sequenza non è soddisfatta"    
+
+
+
+ES: CLASSIFICA
+Specifica: Programma di supporto alla stesura della classifica per una gara di pesi
+a resistenza. Ci sono 10 concorrenti che devono reggere un peso e vince chi
+resiste di più. Il programma deve dare la possibilità di inserire di volta in
+volta il nome del concorrente che si arrende e viene eliminato. Fino alla fine.
+[Ipotesi: ci sono 10 concorrenti e tutti, uno alla volta, ad un certo punto posano
+il peso. Non ci sono parimerito.]
+Appena tutti hanno posato il peso, il programma compila la classifica partendo dal
+vincitore fino all'ultimo.
+Es: 1 - Marco
+    2 - Giovanni 
+    ..... 
+ 
+ 
+ - METODI -
+ ES: classe DueArray che:
+ - chiede all'utente la dimensione dell'array arrayA (di interi), lo crea e lo
+    riempie con i valori chiesti all'utente;
+ - stampa l'array arrayA appena creato;
+ - chiede all'utente la dimensione dell'array arrayB (di interi), lo crea e lo
+    riempie con i valori chiesti all'utente;
+ - stampa l'array arrayB appena creato;
+ - calcola la somma di tutti gli elementi di arrayA e la stampa;
+ - calcola la somma di tutti gli elementi di arrayb e la stampa;
+  Fare la versione con i metodi!
+
+
+ES: classe CopiaArray che:
+ - chiede all'utente un array di interi arrA
+ - crea un nuovo array arrB lungo quanto arrA
+ - copia tutti gli elementi di arrA in arrB 
+ - stampa arrA e arrB   
+NOTA: fare l'operazione di copiaArray e di stampa in un metodo.
+MOD1 - fare un metodo copiaInverso che copia in arraB l'inverso di arrA
+MOD2 - fare il seguente metodo:
+       pulic static void scambia(int[] arr, int i, int j)
+   che scambia in arr l'elemento in posizione i con l'elemento in posizione j
+ 
+   
+ES: controlla nomi
+Definire una classe CercaNomi che cerca se esistono degli studenti con un
+certo nome in una classe. In particolare il programma:
+ - chiede all'utente di quanti studenti è composta una classe
+ - chiede il nome di tutti gli studenti all'utente
+ - chiede all'utente il nome da cercare
+ - restituisce all'utente se c'è uno studente con quel nome.
+ MOD1 - dopo aver chiesto un nome da cercare, invece di terminare,  chiede all'utente
+  se vuole cercare un altro nome (e nel caso lo cerca) ... e così di seguito
+ MOD2 - restituisce all'utente non solo se esiste almeno uno studente con quel nome,
+  ma il numero tatale di studenti con quel nome.
+ 
+
+ES: colletta per regalo [DIFFICILE!!!!!].
+Fare un programma che tiene traccia della raccolta soldi - colletta per 
+fare un regalo al docente del corso. 
+- Il programma alla partenza chiede all'utente se inserire un nuovo contribuente o uscire
+  se l'utente chiede di inserire un nuovo contribuente allora chiede il nome del
+   contribuente e la somma che inserisce.
+  se l'utente chiede di uscire allora stampa a video una lista con 
+     nomeContribuente1        somma1
+     nomeContribuente2        somma2
+           ...                 ...
+  il totale raccolto e quanto è stato messo in media da ogni utente.
+  Inoltre stampa il contribuente da premiare (ha messo + soldi) e quello
+  da punire (ha messo meno soldi)  [Per semplicità considerare solo il primo che
+   ha messo quella cifra ... migliore o peggiore che sia....]
+  - NOTA: NON esiste un numero massimo di contribuenti   
+  
